@@ -1,7 +1,16 @@
 # Design-of-a-16-bit-RISC-with-VHDL
-Using VHDL design a 16 bit RISC Processor
 
 
+Brief overview:
+
+opcode is 4 bits
+
+This system works with every 2 clock signals
+IR_Register is our variables of Opcode,R1, R2, R3
+Opcode is first 4 bits of IR_register
+R1 is second 4 bits of IR_register
+R3 is third 4 bits of IR_register
+Memory adress is last 8 bits of IR_register when you want to use Store Word
 The system works with every two clock signal. 
 
 Opcode:
