@@ -4,7 +4,7 @@
 Brief overview:
 
 opcode is 4 bits
-
+ 
 This system works with every 2 clock signals
 IR_Register is our variables of Opcode,R1, R2, R3
 Opcode is first 4 bits of IR_register
